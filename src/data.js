@@ -29,4 +29,5 @@ export const skills = [
   "Language • JavaScript • TypeScript • HTML • CSS • Git",
   "Frameworks • React",
   "Platform and Tools • GitHub • WordPress • Medium",
+  "Others • Data Structures • Algorithms • Googling",
 ];
