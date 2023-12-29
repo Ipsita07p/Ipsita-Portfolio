@@ -9,14 +9,14 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Presenting Projects built by Me
+            Projects Spotlight
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Welcome to my compilation of React projects, a showcase of my grasp
-            in merging React's power with JavaScript, HTML, and CSS finesse.
-            Each project encapsulates innovation, demonstrating a harmonious
-            blend of functionality and aesthetic brilliance. Dive in to witness
-            the synergy of code and design, reflecting my journey as an aspiring
+            Compilation of React projects, a showcase of my grasp in merging
+            React's power with JavaScript, HTML, and CSS finesse. Each project
+            encapsulates innovation, demonstrating a harmonious blend of
+            functionality and aesthetic brilliance. Dive in to witness the
+            synergy of code and design, reflecting my journey as an aspiring
             software developer.
           </p>
         </div>

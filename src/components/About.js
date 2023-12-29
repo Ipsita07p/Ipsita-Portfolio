@@ -5,28 +5,28 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white pb-2">
             Hello, I'm Ipsita Pati.
-            <br className="hidden lg:inline-block" /> I'm exploring my coding
-            skills building React Projects.
+            <br className="hidden lg:inline-block pb-4" /> I'm exploring my
+            coding skills building React Projects.
           </h1>
-          <p>
+          <p className="pb-10">
             An aspiring Software Developer with a strong foundation in React,
-            JavaScript, HTML, and CSS, seeking an entry-level position to
-            kick-start a rewarding career in the software development industry.
+            JavaScript, HTML, and CSS, seeking to kick-start a rewarding career
+            in the software development industry.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
-              Looking forward to work with you!
+              Let me join your team!
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Have a look on my past works!
+              Peek into my past works!
             </a>
           </div>
         </div>
