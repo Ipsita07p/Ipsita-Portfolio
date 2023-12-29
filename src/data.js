@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React and CSS",
     description:
       "Developed a simple clone of AirBnb using React and CSS and successfully structured and passed data using props while employing mapping components to dynamically render content.",
-    image: "./airbnb-clone.jpg",
+    image: "./images/airbnb-clone.jpg",
     link: "https://ipsita07p.github.io/Airbnb-Clone/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React and CSS",
     description:
       "Developed a digital business card using React and CSS and employed an organizational strategy, encapsulating information, skills, and projects into distinct components, showcasing proficiency in front-end development principles.",
-    image: "./digital-card.jpg",
+    image: "./images/digital-card.jpg",
     link: "https://ipsita07p.github.io/Digital-Business-Card/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React and CSS",
     description:
       "Created a React-powered static site, where structured and displayed React facts meticulously within a well-organized, unordered list, exemplifying a fusion of meticulous design and coding.",
-    image: "./reactfacts.jpg",
+    image: "./images/reactfacts.jpg",
     link: "https://reactbootcamp.com",
   },
 ];
