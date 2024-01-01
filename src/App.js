@@ -1,18 +1,36 @@
-import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React, { useContext } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
-export default function App() {
+import { ThemeContext } from "./contexts/ThemeContext";
+import { Main, BlogPage, ProjectPage } from "./pages";
+import { BackToTop } from "./components";
+import ScrollToTop from "./utils/ScrollToTop";
+
+import "./App.css";
+
+function App() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </main>
+    <div className="app">
+      <Router>
+        <ScrollToTop />
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/blog" exact component={BlogPage} />
+          <Route path="/projects" exact component={ProjectPage} />
+
+          <Redirect to="/" />
+        </Switch>
+      </Router>
+      <BackToTop />
+    </div>
   );
 }
+
+export default App;
