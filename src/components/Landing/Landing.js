@@ -9,12 +9,12 @@ import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
 
 import {
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
   FaBlogger,
+  FaGithub,
+  FaLinkedin,
   FaMedium,
+  FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
 
 function Landing() {
@@ -103,7 +103,8 @@ function Landing() {
                 />
               </a>
             )}
-            {/* {socialsData.twitter && (
+            {
+              /* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -128,7 +129,8 @@ function Landing() {
                                     aria-label='YouTube'
                                 />
                             </a>
-                        )}*/}
+                        )}*/
+            }
           </div>
         </div>
         <img

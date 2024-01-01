@@ -2,19 +2,16 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import {
-  Navbar,
+  About,
+  Achievement,
+  Blog,
+  Contacts,
   Footer,
   Landing,
-  About,
-  Skills,
-  Testimonials,
-  Blog,
-  Education,
-  Experience,
-  Contacts,
+  Navbar,
   Projects,
   Services,
-  Achievement,
+  Skills,
 } from "../../components";
 import { headerData } from "../../data/headerData";
 

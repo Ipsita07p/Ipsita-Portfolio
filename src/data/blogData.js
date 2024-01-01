@@ -10,7 +10,8 @@ export const blogData = [
       "Does public speaking still make you feel phobic? I have the list of soltions ready for you",
     date: "Jun 27, 2023",
     image: eight,
-    url: "https://medium.com/@ipsita.pati2000/overcoming-fear-of-public-speaking-caf13fd37ade",
+    url:
+      "https://medium.com/@ipsita.pati2000/overcoming-fear-of-public-speaking-caf13fd37ade",
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export const blogData = [
       "Heard a lot about vaccines? Let me walk you through the world of vaccines.",
     date: "Jul 22, 2023",
     image: seven,
-    url: "https://medium.com/@ipsita.pati2000/vaccines-and-their-impact-on-human-health-e0e0f26b6cdc",
+    url:
+      "https://medium.com/@ipsita.pati2000/vaccines-and-their-impact-on-human-health-e0e0f26b6cdc",
   },
   {
     id: 3,
@@ -28,14 +30,15 @@ export const blogData = [
       "What is this bustle about Machine Learning and Artificial Intelligence? Join me in this walkthrough how they are creating a difference in industry.",
     date: "Jul 28, 2023",
     image: six,
-    url: "https://medium.com/@ipsita.pati2000/industrial-transformation-through-machine-learning-and-ai-2b5d31ab4e50",
+    url:
+      "https://medium.com/@ipsita.pati2000/industrial-transformation-through-machine-learning-and-ai-2b5d31ab4e50",
   },
 ];
 
 // Do not remove any fields.
 // Leave it blank instead as shown below.
 
-/* 
+/*
 {
     id: 1,
     title: 'Car Pooling System',
@@ -43,5 +46,5 @@ export const blogData = [
     date: 'Oct 1, 2020',
     image: '',
     url: 'https://preview.colorlib.com/theme/rezume/'
-}, 
+},
 */

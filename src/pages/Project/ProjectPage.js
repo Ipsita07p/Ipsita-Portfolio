@@ -33,10 +33,9 @@ function ProjectPage() {
       fontWeight: 500,
       fontSize: "0.9rem",
       backgroundColor: theme.secondary,
-      boxShadow:
-        theme.type === "dark"
-          ? "inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060"
-          : "inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030",
+      boxShadow: theme.type === "dark"
+        ? "inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060"
+        : "inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030",
       "&::placeholder": {
         color: theme.tertiary80,
       },
@@ -54,10 +53,9 @@ function ProjectPage() {
       boxSizing: "content-box",
       fontSize: "2rem",
       cursor: "pointer",
-      boxShadow:
-        theme.type === "dark"
-          ? "3px 3px 6px #ffffff40, -3px -3px 6px #00000050"
-          : "3px 3px 6px #ffffff40, -3px -3px 6px #00000050",
+      boxShadow: theme.type === "dark"
+        ? "3px 3px 6px #ffffff40, -3px -3px 6px #00000050"
+        : "3px 3px 6px #ffffff40, -3px -3px 6px #00000050",
       transition: "all 0.3s ease-in-out",
       "&:hover": {
         color: theme.tertiary,
@@ -90,7 +88,8 @@ function ProjectPage() {
           <input
             type="text"
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) =>
+              setSearch(e.target.value)}
             placeholder="Search project..."
             className={classes.search}
           />

@@ -1,24 +1,24 @@
 import React, { useContext, useState } from "react";
-import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
+import { IconButton, Snackbar, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
 import axios from "axios";
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
 import {
-  FaTwitter,
-  FaLinkedinIn,
-  FaGithub,
-  FaYoutube,
   FaBloggerB,
+  FaCodepen,
+  FaGithub,
+  FaGitlab,
+  FaInstagram,
+  FaLinkedinIn,
+  FaMediumM,
   FaRedditAlien,
   FaStackOverflow,
-  FaCodepen,
-  FaInstagram,
-  FaGitlab,
-  FaMediumM,
+  FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
-import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
-import { FiPhone, FiAtSign } from "react-icons/fi";
+import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
+import { FiAtSign, FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
@@ -169,7 +169,8 @@ function Contacts() {
       <div className="contacts--container">
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className="contacts-body">
-          {/* <div className='contacts-form'>
+          {
+            /* <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
@@ -278,7 +279,8 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div> */}
+                    </div> */
+          }
 
           <div className="contacts-details">
             <a
@@ -304,7 +306,8 @@ function Contacts() {
             </div>
 
             <div className="socialmedia-icons">
-              {/* {socialsData.twitter && (
+              {
+                /* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -313,7 +316,8 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )} */}
+                            )} */
+              }
               {socialsData.github && (
                 <a
                   href={socialsData.github}
@@ -334,7 +338,8 @@ function Contacts() {
                   <FaLinkedinIn aria-label="LinkedIn" />
                 </a>
               )}
-              {/* {socialsData.instagram && (
+              {
+                /* {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -343,7 +348,8 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )}*/}
+                            )}*/
+              }
               {socialsData.medium && (
                 <a
                   href={socialsData.medium}
@@ -354,7 +360,8 @@ function Contacts() {
                   <FaMediumM aria-label="Medium" />
                 </a>
               )}
-              {/*
+              {
+                /*
                             {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
@@ -414,7 +421,8 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )} */}
+                            )} */
+              }
             </div>
           </div>
         </div>

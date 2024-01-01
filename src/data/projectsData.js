@@ -46,7 +46,7 @@ export const projectsData = [
 // Do not remove any fields.
 // Leave it blank instead as shown below
 
-/* 
+/*
 {
     id: 1,
     projectName: 'Car Pooling System',
@@ -55,5 +55,5 @@ export const projectsData = [
     code: '',
     demo: '',
     image: ''
-}, 
+},
 */

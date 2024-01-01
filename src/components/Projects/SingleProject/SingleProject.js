@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { FaPlay, FaCode } from "react-icons/fa";
+import { FaCode, FaPlay } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 
 import placeholder from "../../../assets/png/placeholder.png";
@@ -55,9 +55,11 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               target="_blank"
               rel="noreferrer"
               className={classes.iconBtn}
-              aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
-                .replace(" ", "-")
-                .toLowerCase()}-demo`}
+              aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${
+                name
+                  .replace(" ", "-")
+                  .toLowerCase()
+              }-demo`}
             >
               <FaPlay
                 id={`${name.replace(" ", "-").toLowerCase()}-demo`}
@@ -70,9 +72,11 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               target="_blank"
               rel="noreferrer"
               className={classes.iconBtn}
-              aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
-                .replace(" ", "-")
-                .toLowerCase()}-code`}
+              aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${
+                name
+                  .replace(" ", "-")
+                  .toLowerCase()
+              }-code`}
             >
               <FaCode
                 id={`${name.replace(" ", "-").toLowerCase()}-code`}
@@ -98,9 +102,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             color: theme.tertiary80,
           }}
         >
-          {tags.map((tag, id) => (
-            <span key={id}>{tag}</span>
-          ))}
+          {tags.map((tag, id) => <span key={id}>{tag}</span>)}
         </div>
       </div>
     </Fade>

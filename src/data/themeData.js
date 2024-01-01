@@ -1,21 +1,21 @@
 /* eslint-disable */
 import {
-  greenThemeLight,
-  greenThemeDark,
-  bwThemeLight,
-  bwThemeDark,
-  blueThemeLight,
   blueThemeDark,
-  redThemeLight,
-  redThemeDark,
-  orangeThemeLight,
+  blueThemeLight,
+  bwThemeDark,
+  bwThemeLight,
+  greenThemeDark,
+  greenThemeLight,
   orangeThemeDark,
-  purpleThemeLight,
-  purpleThemeDark,
-  pinkThemeLight,
+  orangeThemeLight,
   pinkThemeDark,
-  yellowThemeLight,
+  pinkThemeLight,
+  purpleThemeDark,
+  purpleThemeLight,
+  redThemeDark,
+  redThemeLight,
   yellowThemeDark,
+  yellowThemeLight,
 } from "../theme/theme";
 
 export const themeData = {
